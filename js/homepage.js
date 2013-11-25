@@ -6,9 +6,7 @@ $( document ).ready(function() {
 	  function() {
 	    $( this ).addClass("transparent");
 	  }
-	);
-	
-	
+	);	
 	
 	$( ".socialIcons a" ).hover(
 	  //var imgUrl = $(this).children();
