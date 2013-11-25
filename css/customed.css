@@ -1,0 +1,538 @@
+/* --- Body Part --- */
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	/*background-image: url('../images/background.png');*/	
+	background-color: #F0EFED;	
+	color: #FFF8F0;
+	min-width: 300px;
+}
+
+a {
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz-transition: color 0.3s ease-in-out;
+	-o-transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+}
+
+/* --- Header Part --- */
+#block-menu-block-1 {
+	margin: 0;
+}
+
+#header {
+	padding: 0;
+}
+
+#header .menu {
+	margin: 0;
+	padding: 0 65px;
+	position: relative;
+	background-color: #363636;
+	height: 93px;
+	-webkit-box-shadow: 8px 6px 5px rgba(51, 50, 50, 0.6);
+	-moz-box-shadow:    8px 6px 5px rgba(51, 50, 50, 0.6);
+	box-shadow:         8px 6px 5px rgba(51, 50, 50, 0.6);
+	
+}
+
+#header .menu li {
+	padding: 20px 0px;
+	display: inline-block;
+	line-height: 1.375em;
+	margin: 1em;	
+	text-decoration: none;	
+}
+
+#header .menu a {
+	display: block;
+	font-size: 1.375em;
+	font-weight: 300;
+	text-decoration: none;
+	color: #FFF8F0;	 
+}
+
+ 
+#header .menu a:hover,
+#header .menu a:active {
+	color: #1fc8d3; 
+}
+
+
+/* --- Main Page Part --- */
+#frontpage {
+	background-color: #4cd2da;
+	background-image: -webkit-linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
+  	background-image: -moz-linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
+  	background-image: -ms-linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
+  	background-image: -o-linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
+  	background-image: linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
+}
+
+#frontpage #main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+#frontpage .intro,
+.technology {
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 1.125em;	
+}
+
+#frontpage .intro {
+	color: #FFF8F0;
+}
+
+#frontpage .strong {
+	font-weight: 700;
+	line-height: 2em;
+}
+
+/* Second Page */
+.platforms {
+	background: #F0EFED;
+	color: #555555;
+}
+
+.part {
+	min-height: 88%;
+	position: relative;
+}
+
+.technology {
+	color: #1FC8D3;
+	padding-top: 0.5em;
+}
+
+.socialIcons {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+}
+
+.socialIcons ul {
+	display: inline-block;
+}
+
+.socialIcons li {
+	position: relative;	
+	float: left;
+	display: table;
+	margin-right: 50px;
+}
+
+.colorbox li a{
+	margin: 0 auto;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.colorbox {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+}
+
+.colorbox, .colorbox ul {
+	display: inline-block;
+}
+
+.colorbox ul {
+	width: 552px;
+}
+
+.colorbox li{
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	font-size: 2em;
+	font-weight: 900;
+	position: relative;	
+	float: left;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	display: table;
+}
+
+.colorbox li p{
+	margin: 0 auto;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.purple {
+	background-color: #9821FB;
+	-webkit-border-radius: 45px 0 0 0;
+	-moz-border-radius: 45px 0 0 0;
+	border-radius: 45px 0 0 0;
+}
+
+.brown {
+	background-color: #BF5507;
+}
+
+.green {
+	background-color: #27A8A2;
+	-webkit-border-radius: 0 45px 0 0;
+	-moz-border-radius: 0 45px 0 0;
+	border-radius: 0 45px 0 0;
+}
+
+.yellow {
+	background-color: #FFE500;
+	clear: both;				
+}
+
+.oringe {
+	background-color: #F44910;
+}
+
+.blue {
+	background-color: #00B4FF;
+}
+
+.red {
+	background-color: #FF0505;
+	-webkit-border-radius: 0 0 0 45px;
+	-moz-border-radius: 0 0 0 45px;
+	border-radius: 0 0 0 45px;
+	clear: both;
+}
+
+.black {
+	background-color: #050505;
+}
+			
+.grey {
+	background-color: #919999;
+	-webkit-border-radius: 0 0 45px 0;
+	-moz-border-radius: 0 0 45px 0;
+	border-radius: 0 0 45px 0;
+}
+			
+.transparent {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%; 
+		
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=60);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.6;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.6;
+    
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.6;
+}
+
+/* Blog View */
+#page{
+	font-size: 1em;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -62px;
+	color: #363636;
+}
+
+#page-title{
+	font-size: 3.375rem;
+	line-height: 1;
+	font-weight: 700;
+	font-style: italic;
+	padding: 50px 0 50px 40px;
+	background: #5adae2;
+}
+
+.views-row {
+	font-size: 1.25em;
+	padding: 27px 30px;
+	margin-bottom: 14px;
+	background-color: rgba(255, 255, 255, 0.47);
+	text-align: left;
+}
+
+.views-row header h2{
+	font-size: 2.8125rem;
+	line-height: 1.066;
+	font-weight: 400;
+	margin-bottom: 0.5em;
+}
+
+.views-row header h2 a{
+	color: #1fc8d3;
+	text-decoration: none;
+}
+
+.views-row header h2 a:hover{
+	color: #555555;
+}
+
+.views-row .node-readmore,
+.views-row .comment-add{
+	padding: 0;
+}
+
+.views-row .node-readmore a,
+.views-row .comment-add a,
+.views-row .disqus_comments_num a{
+	background: #c5c5c5;
+	padding: 14px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: 400;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.views-row .node-readmore a:hover,
+.views-row .comment-add a:hover,
+.views-row .disqus_comments_num a:hover {
+	outline: 0;
+	background: #1fc8d3;
+}
+
+#page pre {
+	overflow: auto;
+	color: white;
+	background: #F8931F;
+	padding: 15px 0 0 0;
+	-ms-word-break: normal;
+	word-break: normal;
+	word-break: normal;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	position: relative;
+	max-width: 750px;
+}
+
+#page pre code {
+	background: #1d1f21;
+	padding: 15px;
+	white-space: pre;
+	overflow: auto;
+	display: block;
+}
+
+#comments {
+	margin-top: 80px;
+}
+
+#page .field-name-field-tags {
+	margin-bottom: 30px;
+}
+
+#page .field-name-field-tags a {
+	background: #363636;
+	margin: 15px  0 0 0;
+	padding: 10px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.8rem;
+	-moz-border-radius: 85px; 
+   	-webkit-border-radius: 85px; 
+   	border-radius: 85px;
+}
+
+#page .field-name-field-tags a:hover {
+	background: #1fc8d3;
+}
+
+
+/* Blog Page */
+article.view-mode-full {
+	padding: 27px 30px 27px 200px;
+	text-align: left;
+	background-color: rgba(255, 255, 255, 0.47);
+	
+}
+
+article.view-mode-full h1,
+article.view-mode-full h2,
+article.view-mode-full h3,
+article.view-mode-full h4,
+article.view-mode-full h5,
+article.view-mode-full h6 {
+	color: #1fc8d3;
+	max-width: 750px;
+}
+
+article.view-mode-full h1 {
+	font-size: 2.75rem;
+}
+
+article.view-mode-full h2 {
+	font-size: 1.625rem;
+	line-height: 1;
+	padding-bottom: 0.75em;
+	border-bottom: 1px solid #d4d4d3;
+	color: #1fc8d3;
+	font-weight: 400;
+}
+
+article.view-mode-full h2 a {
+	font-size: 1.625rem;
+	line-height: 1;
+	padding-bottom: 0.75em;
+	border-bottom: 1px solid #d4d4d3;
+	color: #1fc8d3;
+	font-weight: 400;
+}
+
+
+article.view-mode-full p{
+	font-size: 1.275rem;
+	line-height: 1.363;
+	float: none;
+	padding: 0;
+	margin: 0 0 1.5em;
+	color: #555555;
+	max-width: 750px;
+}
+
+#backtolist {
+	background-color: rgba(255, 255, 255, 0.47);
+}
+
+#backtolist a {
+	background: #c5c5c5;
+	padding: 14px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	margin: 20px 0px 0 200px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#backtolist a:before {
+	content: "< ";
+}
+
+#backtolist a:hover{
+	outline: 0;
+	background: #1fc8d3;
+}
+
+/* Disqus */
+#disqus_thread {
+	max-width: 750px;
+}
+
+
+
+/* Screen size less than 600px */
+@media all and (max-width: 600px) {
+	#frontpage .intro,
+	.technology {
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+	.colorbox ul {
+		width: 184px;
+	}
+	.colorbox li{
+		clear:both;
+		-webkit-border-radius: 45px;
+		-moz-border-radius: 45px;
+		border-radius: 45px;
+	}
+}
+
+/* Screen size between 601px and 860px */
+@media all and (max-width: 860px) and (min-width: 601px) {
+	#frontpage .intro,
+	.technology {
+		font-size: 2.0em;
+		line-height: 1.0em;
+	}
+	.colorbox ul {
+		width: 432px;
+	}
+	.colorbox li{
+		width: 120px;
+		height: 120px;
+		padding: 10px;
+		font-size: 1.5em;
+		position: relative;
+		float: left;
+		border: 2px solid #FFFFFF;
+		color: #FFFFFF;
+		display: table;
+	}
+}
+
+/* Screen size larger than 861px */
+@media all and (min-width: 861px) {
+	
+}
+
+/* --- Footer Part --- */
+footer{
+	background-color: #363636;	
+	-webkit-box-shadow: 8px 6px 5px rgba(51, 50, 50, 0.6);
+	-moz-box-shadow:    8px 6px 5px rgba(51, 50, 50, 0.6);
+	box-shadow:         8px 6px 5px rgba(51, 50, 50, 0.6);
+}
+
+.footer, .push {
+	height: 62px;
+}
+
+.footer-width {
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;	
+}
+
+.footer-info {
+	margin: 0px;
+	padding: 0px;  
+	text-align: center;
+	list-style-type: none; 
+}
+
+.footer-info li {
+	padding: 20px 0px;
+	display: inline-block;
+	line-height: 1.375em;
+	margin: 0px;
+	font-weight: 300;
+	text-decoration: none; 
+}
+
+#footer {
+	color: #5adae2;
+}
+
+/* clear float */
+.clear {
+	clear: both;
+} 
