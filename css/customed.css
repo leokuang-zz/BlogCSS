@@ -10,7 +10,7 @@ body {
 	/*background-image: url('../images/background.png');*/	
 	background-color: #F0EFED;	
 	color: #FFF8F0;
-	min-width: 300px;
+	min-width: 350px;
 }
 
 a {
@@ -126,7 +126,7 @@ a {
 	position: relative;	
 	float: left;
 	display: table;
-	margin-right: 50px;
+	margin-right: 30px;
 }
 
 .colorbox li a{
@@ -450,6 +450,10 @@ article.view-mode-full p{
 
 /* Screen size less than 600px */
 @media all and (max-width: 600px) {
+	#header .menu a {
+		font-size: 1.115em; 
+	}
+		
 	#frontpage .intro,
 	.technology {
 		font-size: 1.5em;
@@ -464,10 +468,51 @@ article.view-mode-full p{
 		-moz-border-radius: 45px;
 		border-radius: 45px;
 	}
+	
+	#page-title{
+		font-size: 2.0rem;
+	}
+	
+	.views-row h1{
+		font-size: 1.65rem;
+	}
+
+	.views-row h2{
+		font-size: 1.45rem;
+	}
+	
+	.views-row header h2{
+		font-size: 1.85rem;
+	}
+
+	article.view-mode-full {
+		padding: 27px 30px 27px 30px;		
+	}
+	
+	article.view-mode-full h1 {
+		font-size: 1.85rem;
+	}
+	
+	article.view-mode-full h2 {
+		font-size: 1.3rem;
+	}
+	
+	article.view-mode-full p{
+		font-size: 1.0rem;
+		line-height: 1.15;		
+	}
+	
+	article.view-mode-full p:last-of-type{
+		margin-bottom: 3.5rem;
+	}
 }
 
 /* Screen size between 601px and 860px */
 @media all and (max-width: 860px) and (min-width: 601px) {
+	#header .menu a {
+		font-size: 1.225em; 
+	}
+	
 	#frontpage .intro,
 	.technology {
 		font-size: 2.0em;
@@ -486,6 +531,35 @@ article.view-mode-full p{
 		border: 2px solid #FFFFFF;
 		color: #FFFFFF;
 		display: table;
+	}
+	
+	#page-title{
+		font-size: 2.35rem;
+		margin: 0 auto;
+	}
+	
+	.views-row h1{
+		font-size: 1.85rem;
+	}
+
+	.views-row h2{
+		font-size: 1.65rem;
+	}
+	
+	.views-row header h2{
+		font-size: 2.0rem;
+	}
+	
+	article.view-mode-full {
+		padding: 27px 30px 27px 30px;		
+	}
+	
+	article.view-mode-full h1 {
+		font-size: 2.0rem;
+	}
+	
+	article.view-mode-full h2 {
+		font-size: 1.65rem;
 	}
 }
 
