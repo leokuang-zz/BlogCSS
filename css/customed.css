@@ -1,4 +1,4 @@
-/* --- Body Part --- */
+/*--------------------------- Body Part ----------------------------- */
 * {
 	margin: 0;
 }
@@ -20,7 +20,8 @@ a {
 	transition: color 0.3s ease-in-out;
 }
 
-/* --- Header Part --- */
+
+/*--------------------------- Header Part --------------------------- */
 #block-menu-block-1 {
 	margin: 0;
 }
@@ -64,7 +65,7 @@ a {
 }
 
 
-/* --- Main Page Part --- */
+/*--------------------------- Main Page Part ------------------------ */
 #frontpage {
 	background-color: #4cd2da;
 	background-image: -webkit-linear-gradient(38deg, #4cd2da, #4cd2da 50%, #5adae2 50%, #5adae2 100%);
@@ -96,7 +97,8 @@ a {
 	line-height: 2em;
 }
 
-/* Second Page */
+
+/*--------------------------- Second Page ----------------------------*/
 .platforms {
 	background: #F0EFED;
 	color: #555555;
@@ -245,7 +247,8 @@ a {
 	opacity: 0.6;
 }
 
-/* Blog View */
+
+/*--------------------------- Blog View ------------------------------*/
 #page {
 	font-size: 1em;
 	min-height: 100%;
@@ -365,7 +368,7 @@ a {
 }
 
 
-/* Blog Page */
+/*--------------------------- Blog Page ------------------------------*/
 article.view-mode-full {
 	padding: 27px 30px 27px 200px;
 	text-align: left;
@@ -443,14 +446,39 @@ ul.tabs-primary {
 	padding-top: 30px;
 }
 
-/* Disqus */
+
+/*--------------------------- Disqus ---------------------------------*/
 #disqus_thread {
 	max-width: 750px;
 }
 
 
+/*--------------------------- pager ----------------------------------*/
+.pager li{
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
 
-/* Screen size less than 600px */
+.pager li a, .pager .pager-current {
+	background: #c5c5c5;
+	padding: 14px 20px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.0rem;
+	font-weight: 400;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.pager li a:hover, .pager .pager-current {
+	background-color: #1fc8d3;
+}
+
+
+/*------------------- Screen size less than 600px --------------------*/
 @media all and (max-width: 600px) {
 	#header .menu a {
 		font-size: 1.115em; 
@@ -509,7 +537,8 @@ ul.tabs-primary {
 	}
 }
 
-/* Screen size between 601px and 860px */
+
+/*--------------- Screen size between 601px and 860px ----------------*/
 @media all and (max-width: 860px) and (min-width: 601px) {
 	#header .menu a {
 		font-size: 1.225em; 
@@ -565,12 +594,14 @@ ul.tabs-primary {
 	}
 }
 
-/* Screen size larger than 861px */
+
+/*------------------- Screen size larger than 861px ------------------*/
 @media all and (min-width: 861px) {
 	
 }
 
-/* --- Footer Part --- */
+
+/*--------------------------- Footer Part ----------------------------*/
 footer{
 	background-color: #363636;	
 	-webkit-box-shadow: 8px 6px 5px rgba(51, 50, 50, 0.6);
@@ -608,7 +639,8 @@ footer{
 	color: #5adae2;
 }
 
-/* clear float */
+
+/*--------------------------- clear float ----------------------------*/
 .clear {
 	clear: both;
 } 
