@@ -19,5 +19,4 @@ $( document ).ready(function() {
 	    $(this).children().attr("src", imgUrl.replace("_colored.png", ".png"));
 	  }
 	);
-	
 });

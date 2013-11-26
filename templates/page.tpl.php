@@ -49,6 +49,9 @@
 
 <div id="page">	
   <div id="main">
+  	<!--div class="diagonal">
+  		<img src="/sites/all/themes/leokuang/images/diagonal.svg" />
+  	</div-->
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
@@ -57,16 +60,13 @@
       <?php if ($title): ?>
         <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
-      <?php print render($title_suffix); ?>
+      <?php print render($title_suffix); ?>     
       <?php print $messages; ?>
       <?php print render($tabs); ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <!--div id="backtolist">
-      	<a href="/blog">Back to Listings</a>
-      </div-->
+      <?php endif; ?>      
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div>
@@ -110,7 +110,6 @@
         <?php print $sidebar_second; ?>
       </aside>
     <?php endif; ?>
-
   </div>
 
   <?php print render($page['footer']); ?>
@@ -126,3 +125,8 @@
   	</ul>
   </div>
 </footer>
+
+<script src="/sites/all/themes/leokuang/js/jquery-1.10.2.min.js"></script>
+<script>	
+	$( "article.view-mode-full header" ).prepend("<div id=\"backtolist\"><a href=\"/blog\">Back to Listings</a></div>");
+</script>
